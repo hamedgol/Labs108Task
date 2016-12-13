@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+    android:id="@+id/hsv"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:fillViewport="true"
+    android:measureAllChildren="false"
+    android:scrollbars="none"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:scrollbars="horizontal">
+    <ListView
+        android:id="@+id/listMovies"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="horizontal"/>
+</LinearLayout>
+</HorizontalScrollView>
